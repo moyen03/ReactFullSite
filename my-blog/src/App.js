@@ -8,13 +8,12 @@ import ArticlePage from "./pages/ArticlePage";
 function App() {
   return (
     <div className="App">
-      <h1>My Awesome Blog</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/articles" element={<ArticlesListPage />} />
-          <Route path="/articles/:articleId" element={<ArticlesListPage />} />
+          <Route path="/articles/:articleId" element={<ArticlePage />} />
         </Routes>
       </BrowserRouter>
     </div>

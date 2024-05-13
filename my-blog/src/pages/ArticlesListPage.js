@@ -1,10 +1,11 @@
 import React from "react";
-import Navbar from "./NavBar";
+import NavBar from "../NavBar";
 
 const ArticlesListPage = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
+      <p></p>
       <h2>THis is the Articles List page!</h2>
     </div>
   );
