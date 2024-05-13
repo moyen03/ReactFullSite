@@ -1,5 +1,5 @@
 import React from "react";
-import { parsePath, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import NavBar from "../NavBar";
 import articles from "./article-content";
 
